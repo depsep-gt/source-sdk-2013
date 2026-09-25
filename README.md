@@ -4,13 +4,20 @@ Source code for Source SDK 2013.
 
 Contains the game code for Half-Life 2, HL2: DM and TF2.
 
-**Now including Team Fortress 2! ✨**
+## Disclaimer
+This modding project utilizes modified code from previous Valve source leaks. I am not using any Valve assets, but I am using some leaked code.
+
+Please do not distribute this project as a paid project or anything of these types. I try to make most of my things open-source so that anyone can freely edit things to their liking.
+
+You are required to provide your own game assets, as I do **NOT** condone privacy.
+
+This mod is more-so aimed towards HL2DM projects, as I have zero experience with the TF2 projects.
 
 ## Build instructions
 
 Clone the repository using the following command:
 
-`git clone https://github.com/ValveSoftware/source-sdk-2013`
+`git clone https://github.com/depsep-gt/source-sdk-2013`
 
 ### Windows
 
@@ -21,6 +28,7 @@ Requirements:
      - MSVC v143 - VS 2022 C++ x64/x86 build tools (Latest)
      - Windows 11 SDK (10.0.22621.0) or Windows 10 SDK (10.0.19041.1)
  - Python 3.13 or later
+ - Files from a legal copy of either Portal 1 or Half-Life 2
 
 Inside the cloned directory, navigate to `src`, run:
 ```bat
