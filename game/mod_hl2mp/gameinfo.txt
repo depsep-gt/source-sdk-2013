@@ -1,6 +1,6 @@
 "GameInfo"
 {
-	game	"My First HL2MP Mod"
+	game	"CrossplayHLP"
 	title	"HALF+LIFE'"
 	title2	"deathmatch"
 	type multiplayer_only
@@ -10,8 +10,8 @@
 	supportsvr	1
 	hidden_maps
 	{
-		"test_speakers"		1
-		"test_hardware"		1
+		"test_speakers"		0
+		"test_hardware"		0
 	}
 
 
