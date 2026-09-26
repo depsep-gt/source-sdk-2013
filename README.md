@@ -29,6 +29,7 @@ Requirements:
      - Windows 11 SDK (10.0.22621.0) or Windows 10 SDK (10.0.19041.1)
  - Python 3.13 or later
  - Files from a legal copy of either Portal 1 or Half-Life 2
+ - You may have to grab specific files from the official Source SDK 2013 MP repo, due to my Git setup.
 
 Inside the cloned directory, navigate to `src`, run:
 ```bat
