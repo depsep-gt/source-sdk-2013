@@ -3,6 +3,8 @@
 Source code for Source SDK 2013.
 
 Contains the game code for Half-Life 2, HL2: DM and TF2.
+Contains (wip) VR support.
+
 
 ## Disclaimer
 This modding project utilizes modified code from previous Valve source leaks. I am not using any Valve assets, but I am using some leaked code.
