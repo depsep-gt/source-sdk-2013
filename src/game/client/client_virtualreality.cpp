@@ -23,6 +23,11 @@
 #include <time.h>
 #include "steam/steam_api.h"
 
+#include <d3d11.h>
+#include <d3d9.h>
+
+#pragma comment(lib, "d3d11.lib")
+
 const char *COM_GetModDirectory(); // return the mod dir (rather than the complete -game param, which can be a path)
 
 CClientVirtualReality g_ClientVirtualReality;
@@ -1297,10 +1302,10 @@ void CClientVirtualReality::AlignTorsoAndViewToWeapon()
 	if( !UseVR() )
 		return;
 
-	if( g_pSourceVR->WillDriftInYaw() )
+	/*if (g_pSourceVR->WillDriftInYaw())
 	{
 		m_iAlignTorsoAndViewToWeaponCountdown = 2;
-	}
+	}*/
 }
 
 

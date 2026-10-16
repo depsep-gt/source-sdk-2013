@@ -1118,7 +1118,8 @@ ConVarRef suitcharger( "sk_suitcharger" );
 
 	bool CMultiplayRules::FAllowFlashlight( void ) 
 	{ 
-		return flashlight.GetInt() != 0; 
+		//return flashlight.GetInt() != 0;
+		return true;
 	}
 
 	//=========================================================

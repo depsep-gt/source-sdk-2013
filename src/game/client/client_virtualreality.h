@@ -158,6 +158,12 @@ private:
     int m_nNonVRSDLDisplayIndex;
 #endif
     bool m_bNonVRRawInput;
+
+	IVRSystem* m_pHMD = nullptr;
+	ID3D11Device* m_pD3D11Device = nullptr;
+	ID3D11DeviceContext* m_pD3D11Context = nullptr;
+	uint32_t            m_nRenderWidth = 0;
+	uint32_t            m_nRenderHeight = 0;
 };
 
 extern CClientVirtualReality g_ClientVirtualReality;
