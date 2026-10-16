@@ -5,6 +5,12 @@ Source code for Source SDK 2013.
 Contains the game code for Half-Life 2, HL2: DM and TF2.
 Contains (wip) VR support.
 
+Also contains multiplayer support for Half-Life 2 and Portal, both being very early in development.
+
+## Bugs
+ - NPC interactions are very buggy
+ - Some maps may not work properly
+ - More bugs may exist, but these are the ones I know as of right now.
 
 ## Disclaimer
 This modding project utilizes modified code from previous Valve source leaks. I am not using any Valve assets, but I am using some leaked code.
@@ -31,7 +37,6 @@ Requirements:
      - Windows 11 SDK (10.0.22621.0) or Windows 10 SDK (10.0.19041.1)
  - Python 3.13 or later
  - Files from a legal copy of either Portal 1 or Half-Life 2
- - You may have to grab specific files from the official Source SDK 2013 MP repo, due to my Git setup.
 
 Inside the cloned directory, navigate to `src`, run:
 ```bat
